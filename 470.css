@@ -1,0 +1,902 @@
+@media screen and (max-width: 470px){
+
+    body
+    {
+      overflow-x: hidden;
+    }
+
+    header{   
+    background: url("http://www.ecolightmexico.com.mx/img/led_cabecera.jpg") no-repeat top,
+                #FFFFFF;
+    background-size: 460px;
+    margin-top: 1em;
+    margin-bottom: -4.8em;
+    width: 100%;
+
+    }
+
+    /* Logo */
+    header h1
+    {
+        margin: -1em 0 0 0.7em;
+        float: left;
+
+    }
+
+    header h2 {
+        color: #FFFFFF;
+        margin-top: 0;
+        margin-left:auto;
+        margin-right: -2em;
+        padding-top: 3em;
+        padding-bottom: 1em;
+        font-size: 1.8em;
+        text-align: right;
+        text-shadow: rgba(1,0,0,0.9) 2px 1px;
+    }
+
+    header h3 {
+        margin-right: 0;
+        margin-left: -0.5em;
+        margin-top: 2.5em;
+        color:#F5F550;
+        padding-bottom:4.8em;
+        text-shadow: rgba(1,0,0,0.7) 2px 1px;
+        text-align: center;
+    }
+
+/* Normas */
+    header h4
+    {
+        float: center;
+        margin-top: -5.8em;
+        margin-left: 1em;
+        margin-right: 0em;
+        margin-bottom:-7em;
+    }
+  
+    img {
+        width: 4em;
+        padding-top: -3em;
+        margin-left: -0.6em;
+        margin-bottom:-1.5em
+    }
+
+    nav
+    {
+       margin: 3em 0 12em 0;
+    }
+
+/* Título 1 de Acuarios */
+    #acuarios_h1
+    {
+      color: #FFFFFF;
+      margin-right: -4em;
+      margin-top: -8em;
+      font-size:18px;
+    }
+
+    /* Título 2 de Acuarios */
+    #acuarios_h2
+    {
+      background: #FFF777; /* Para IE */
+      /* imagen que de fondo */
+      background: url("http://www.ecolightmexico.com.mx/img/pecera.png") no-repeat 34%center,
+                  -webkit-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background: url("http://www.ecolightmexico.com.mx/img/pecera.png") no-repeat 34%center,
+                  -moz-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background: url("http://www.ecolightmexico.com.mx/img/pecera.png") no-repeat 34%center,
+                  -o-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background: url("http://www.ecolightmexico.com.mx/img/pecera.png") no-repeat 34%center,
+                  -ms-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background: url("http://www.ecolightmexico.com.mx/img/pecera.png") no-repeat 34%center,
+                  linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background-size: 32px, 100%;
+      border-top: 3px solid #96B42D;
+      color: #96B42D;
+      font-size: 18px;
+      margin-top: 7.9em;
+      padding-left: 5em;
+    }
+
+    /* Imagen de portada de Acuarios */
+    #acuarios_img
+    {
+      width:100%;
+      margin-right:auto;
+      margin-left: auto;
+    }
+
+/* Estilos para Botones */
+    #boton_gasolineras, #boton_techo_comercial, #boton_reflectores_comercial, #boton_piso_comercial,
+    #boton_tirasled_comercial, #boton_techo_hogar, #boton_piso, #boton_jardin, #boton_reflectores_hogar,
+    #boton_tirasled, #boton_campanas_industriales, #boton_techo_industrial, #boton_reflectores_industrial, 
+    #boton_reflectores_industrial, #boton_alumbrado, #boton_tunel_vehicular
+    {
+      font-size: 15px;
+      margin-left: -3em;
+    }
+
+    #boton_reflectores_canchas
+    {
+      font-size: 12.4px;
+      margin-left: -3em;
+    }
+
+/* Contenedor de Buscador */
+    #cajabuscador
+    {
+      margin-top: -17.4em;
+      margin-right: 1.5em;
+      margin-left: auto;
+      margin-bottom: 0.5em;
+
+    }
+
+    /* Título 1 de comercial */
+    #comercial_h1
+    {
+      margin-right: 3.5em;
+      margin-top: -2.3em;
+      font-size:23px;
+    }
+    /* Título 2 de comercial */
+    #comercial_h2
+    {
+      background: url("http://www.ecolightmexico.com.mx/img/bolsa.png") no-repeat 20%top,
+                 -webkit-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background: url("http://www.ecolightmexico.com.mx/img/bolsa.png") no-repeat 20%top,
+                 -moz-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background: url("http://www.ecolightmexico.com.mx/img/bolsa.png") no-repeat 20%top,
+                 -o-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background: url("http://www.ecolightmexico.com.mx/img/bolsa.png") no-repeat 20%top,
+                 -ms-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background: url("http://www.ecolightmexico.com.mx/img/bolsa.png") no-repeat 20%top,
+                 linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background-size:35px, 60%;
+      border-top: 3px solid #96B42D;
+      font-size: 19px;
+      margin-top: 0.1em;
+      padding-right: 3em;
+    }
+
+/* Imagen de portada de Comercial, Contacto, Otros */
+    #comercial_img, #contacto_img, #otros_img
+    {
+      width:100%;
+      margin-right:auto;
+      margin-left:auto;
+    }
+
+    /* Botones de submenu */
+    #comercial, #hogar, #industrial, #ledspotencia, #publica, #acuarios, #deportiva, #granjas
+    {
+     font-size: 11px;
+    }
+ /* Título 2 de contacto */
+    #contacto_h2
+    {
+      background: #FFF777; /* Para IE */
+      /* imagen que de fondo */
+      background: url("http://www.ecolightmexico.com.mx/img/mail_tel.png") no-repeat 25%top,
+                  -webkit-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background: url("http://www.ecolightmexico.com.mx/img/mail_tel.png") no-repeat 25%top,
+                  -moz-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background: url("http://www.ecolightmexico.com.mx/img/mail_tel.png") no-repeat 25%top,
+                  -o-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background: url("http://www.ecolightmexico.com.mx/img/mail_tel.png") no-repeat 25%top,
+                  -ms-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background: url("http://www.ecolightmexico.com.mx/img/mail_tel.png") no-repeat 25%top,
+                  linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background-size: 30px, 100%;
+      border-top: 3px solid #96B42D;
+      color: #96B42D;
+      font-size: 17px;
+      margin-top: 1.2em;
+      margin-bottom: -0.5em;
+      padding-left: 1.5em;
+    }
+
+/* contenedor de contenido de Comercial, Hogar, Industrial */
+    #contenido_comercial, #contenido_hogar, #contenido_industrial, #contenido_publica, #contenido_leds,
+    #contenido_granjas, #contenido_deportiva, #contenido_acuarios
+    {
+      
+      margin-top: -10em;
+      padding-bottom: 8.6em;
+      width:90%;
+ 
+    }
+
+/* contenedor de contenido Contacto */
+    #contenido_contacto
+    {
+      background: #FFFFFF;/* Para IE */
+      /* imagen que de fondo en Empresa */
+      background: url("http://www.ecolightmexico.com.mx/img/contacto2.png") no-repeat 100%bottom,
+                  url("http://www.ecolightmexico.com.mx/img/fondocontacto.jpg") no-repeat -25%bottom,
+                  #FFFFFF;
+      background-size: 220px, 165px 1220px;/* 1220 altura */
+      margin-top: -10em;
+      padding-bottom: 8em;
+      width:90%;
+    }
+
+    /* imagen  de fondo SOLO para Empresa */
+    #contenido_empresa
+    {
+      background: #FFFFFF;/* Para IE */
+       /* imagen que de fondo en contacto */
+      background: url("http://www.ecolightmexico.com.mx/img/empresa.jpg") no-repeat 90%top,
+                  url("http://www.ecolightmexico.com.mx/img/fondoempresa.jpg") repeat-y -40%center,
+                  #FFFFFF; 
+      background-size: 500px 150px, 200px 1500px;/* 1500 altura */
+      padding-bottom: 1em;
+      margin-top: -10em;
+      margin-right: auto;
+      margin-left: auto;
+      width:90%;
+    }
+
+    /* imagenes  de fondo SOLO para Otros */
+    #contenido_otros
+    {
+      background: #FFFFFF;/* Para IE */
+       /* imagen que de fondo en contenido */
+      background: url("http://www.ecolightmexico.com.mx/img/financiamiento2.png") no-repeat 0%bottom,
+                  url("http://www.ecolightmexico.com.mx/img/financiamiento3.png") no-repeat 100%bottom,
+                  url("http://www.ecolightmexico.com.mx/img/financiamiento4.png") no-repeat 100%bottom,
+                  #FFFFFF; 
+      background-size: 170px 390px, 400px 180px, 150px 170px;
+      /* Posición horizontal X y Vertical Y Respectivamente */
+      background-position:  0px 122px, bottom , 8px 490px; 
+      padding-bottom: 5.5em;
+      margin-top: -10em;
+      margin-right: auto;
+      margin-left: auto;
+      width:90%;
+    }
+
+    /* Info Legal de página */
+    #copyright
+    {
+      color: #1E3900;
+      padding-top: 2.5em;
+      padding-bottom: 1em;
+      margin-right: 7em;
+      margin-left: 0.5em;
+      text-align: left;
+      font-style: italic;
+      font-weight: bold;
+      font-size: 0.7em;
+    }
+
+ /* Título 1 de Deportiva */
+    #deportiva_h1
+    {
+      color: #FFFFFF;
+      margin-right: 7.2em;
+      margin-top: -5.5em;
+      font-size:18px;
+
+    }
+
+    /* Título 2 de Deportiva */
+    #deportiva_h2
+    {
+      background: #FFF777; /* Para IE */
+      /* imagen que de fondo */
+      background: url("http://www.ecolightmexico.com.mx/img/estadio.png") no-repeat 31%center,
+                  -webkit-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background: url("http://www.ecolightmexico.com.mx/img/estadio.png") no-repeat 31%center,
+                  -moz-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background: url("http://www.ecolightmexico.com.mx/img/estadio.png") no-repeat 31%center,
+                  -o-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background: url("http://www.ecolightmexico.com.mx/img/estadio.png") no-repeat 31%center,
+                  -ms-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background: url("http://www.ecolightmexico.com.mx/img/estadio.png") no-repeat 31%center,
+                  linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background-size: 33px, 100%;
+      border-top: 3px solid #96B42D;
+      color: #96B42D;
+      font-size: 18px;
+      margin-top: 5.4em;
+      padding-left: 2em;
+    }
+  /* Imagen de portada de Deportiva */
+    #depotiva_img
+    {
+      width:100%;
+      margin-right:auto;
+      margin-left: auto;
+    }
+
+/* Datos de dirección en Footer */
+    #direccion
+    {
+      margin-top: 0em;
+      margin-left: 1.5em;
+      margin-right: 1.5em;
+      margin-bottom: 0.7em;
+      text-align: justify;
+      font-size: 1.2em;
+    }
+
+    #doc 
+    {
+        margin-left: -2em;
+        margin-top: -9.5em;
+        margin-right: auto;
+        width: 110%;
+    }
+
+    /* Imagen de portada de Empresa */
+    #empresa_img
+    {
+      margin-left:auto;
+      margin-right:auto;
+      width:0%;
+    }
+
+    /* Facebook Logo-Botón */
+    #facebook
+    {
+      margin-top: 1.1em;
+      margin-left: auto;
+      margin-right:32em;
+      margin-bottom: -2.7em;
+    }
+
+  /* Título 1 de hogar */
+    #hogar_h1
+    {
+      color: #FFFFFF;
+      margin-right:-2em;
+      margin-top: -3.5em;
+      margin-bottom: 5.5em;
+      font-size:18px;
+      letter-spacing: 3px;
+    }
+
+    /* Título 2 de hogar */
+    #hogar_h2
+    {
+      background: #FFF777; /* Para IE */
+      /* imagen que de fondo */
+      background: url("http://www.ecolightmexico.com.mx/img/casita.png") no-repeat 25%top,
+                  -webkit-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background: url("http://www.ecolightmexico.com.mx/img/casita.png") no-repeat 25%top,
+                  -moz-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background: url("http://www.ecolightmexico.com.mx/img/casita.png") no-repeat 25%top,
+                  -o-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background: url("http://www.ecolightmexico.com.mx/img/casita.png") no-repeat 25%top,
+                  -ms-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background: url("http://www.ecolightmexico.com.mx/img/casita.png") no-repeat 25%top,
+                  linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background-size: 35px, 100%;
+      border-top: 3px solid #96B42D;
+      color: #96B42D;
+      font-size: 18px;
+      margin-top: -2.2em;
+      letter-spacing: 10px;
+      padding-left: 4em;
+    }
+
+    /* Imagen de portada de Hogar */
+    #hogar_img
+    {
+      width:100%;
+      height: 150px;
+      margin-right:auto;
+      margin-left: auto;
+    }
+
+
+    /* BotonImagen de  Reflectores de Potencia Comercial */
+    #imagenboton_reflectores_comercial, #imagenboton_piso_comercial, #imagenboton_tirasled_comercial, 
+    #imagenboton_techo_comercial, #imagenboton_techo_hogar, #imagenboton_piso, #imagenboton_jardin,
+    #imagenboton_reflectores_hogar, #imagenboton_tirasled, #imagenboton_campanas_industriales,
+    #imagenboton_techo_industrial, #imagenboton_reflectores_industrial, #imagenboton_alumbrado,
+    #imagenboton_tunel_vehicular, #imagenboton_reflectores_canchas
+    {
+      height:165px;
+    }
+
+/* Sección de Bienvenida */
+  #QuienesSomos
+  {
+      background: #FFFFFF; /* Para IE */
+      /* imagen en fondo */ 
+      background: url("http://www.ecolightmexico.com.mx/img/logo_bienvenidos.jpg") no-repeat 50%top, 
+                  #FFFFFF;
+                background-size: 300px;
+      width:90%;
+  }
+/* Parrafo dentro de Bienvenida */
+  #parrafo_QuienesSomos
+  {
+      margin-top: -1.7em;
+      margin-left: 2.5em;
+      margin-right: 2.5em;
+      text-align: left;
+  }
+
+
+/* Título 1 de LEDS de Potencia */
+    #leds_h1
+    {
+      color: #FFFFFF;
+      margin-right: -2.1em;
+      margin-top: -3.6em;
+      font-size:18px;
+    }
+
+    /* Título 2 de LEDS de Potencia */
+    #leds_h2
+    {
+      background: #FFF777; /* Para IE */
+      /* imagen que de fondo */
+      background: url("http://www.ecolightmexico.com.mx/img/ledsito.png") no-repeat 22%bottom,
+                  -webkit-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background: url("http://www.ecolightmexico.com.mx/img/ledsito.png") no-repeat 22%bottom,
+                  -moz-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background: url("http://www.ecolightmexico.com.mx/img/ledsito.png") no-repeat 22%bottom,
+                  -o-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background: url("http://www.ecolightmexico.com.mx/img/ledsito.png") no-repeat 22%bottom,
+                  -ms-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background: url("http://www.ecolightmexico.com.mx/img/ledsito.png") no-repeat 22%bottom,
+                  linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background-size: 32px, 100%;
+      border-top: 3px solid #96B42D;
+      color: #96B42D;
+      font-size: 18px;
+      margin-top: 2.2em;
+      letter-spacing: 4.5px;
+      padding-left: 2.7em;
+    }
+
+     /* Imagen de portada de LEDS de Potencia */
+    #leds_img
+    {
+      width:100%;
+      height: 153px;
+      margin-right:auto;
+      margin-left: auto;
+    }
+
+    #ledspotencia
+    {
+      font-size: 11px;
+      word-spacing: 0;
+    }
+
+     #Likefacebook{
+        margin-top: -6em;
+        margin-left: 2em;
+        padding-bottom: 7em;
+    }
+
+/* Contenedor de CopyRight y Logo as-diseño */
+    #legal
+    {
+      background: #ABA9A9;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+      width: 90%;
+    }
+
+    #logo_asDiseno
+    {
+      margin-top: -4.1em;
+      margin-right: 0em;
+      float: right;
+      width: 130px;
+    }
+
+/* Dirección de Mail */
+    #mail
+    {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 2.5em;
+    text-align: center;
+    font-size: 1em;
+   
+    }
+
+/* Jpg de normas */
+    #normas
+    { 
+
+      width:300px;
+
+    }
+
+/* Footer */
+    #Footer
+    {  
+      background: #277500; /* Para IE */
+      background: -webkit-linear-gradient(top, #277500 0%,#003808 100%);
+      background: -moz-linear-gradient(top, #277500 0%,#003808 100%);
+      background: -o-linear-gradient(top, #277500 0%,#003808 100%);
+      background: -ms-linear-gradient(top, #277500 0%,#003808 100%);
+      text-shadow:none;
+      width:90%;
+      padding-bottom: 2.3em;
+    }
+ /* Título 1 de Granjas */
+    #granjas_h1
+    {
+        color: #FFFFFF;
+        margin-right: 4em;
+        margin-top: -5em;
+        font-size:18px;
+
+    }
+
+    /* Título 2 de Granjas */
+    #granjas_h2
+    {
+        background: #FFF777; /* Para IE */
+        /* imagen que de fondo */
+        background: url("http://www.ecolightmexico.com.mx/img/granjita.png") no-repeat 40%top,
+                    -webkit-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+        background: url("http://www.ecolightmexico.com.mx/img/granjita.png") no-repeat 40%top,
+                    -moz-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+        background: url("http://www.ecolightmexico.com.mx/img/granjita.png") no-repeat 40%top,
+                    -o-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+        background: url("http://www.ecolightmexico.com.mx/img/granjita.png") no-repeat 40%top,
+                    -ms-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+        background: url("http://www.ecolightmexico.com.mx/img/granjita.png") no-repeat 40%top,
+                    linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+        background-size: 25px, 100%;
+        border-top: 3px solid #96B42D;
+        color: #96B42D;
+        font-size: 18px;
+        margin-top: 3.3em;
+        padding-left: 10em;
+    }
+
+    /* Imagen de portada de Granjas */
+    #granjas_img
+    {
+      width:100%;
+      margin-top: -0.5em;
+      margin-right:auto;
+      margin-left: auto;
+    }
+
+  /* Título 1 de industrial */
+    #industrial_h1
+    {
+        color: #FFFFFF;
+        margin-right:-2em;
+        margin-top: -3.5em;
+        font-size:18px;
+    }
+
+    /* Título 2 de industrial */
+    #industrial_h2
+    {
+        background: #FFF777; /* Para IE */
+        /* imagen que de fondo */
+        background: url("http://www.ecolightmexico.com.mx/img/engrane.png") no-repeat 50%top,
+                    -webkit-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+        background: url("http://www.ecolightmexico.com.mx/img/engrane.png") no-repeat 50%top,
+                    -moz-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+        background: url("http://www.ecolightmexico.com.mx/img/engrane.png") no-repeat 50%top,
+                    -o-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+        background: url("http://www.ecolightmexico.com.mx/img/engrane.png") no-repeat 50%top,
+                    -ms-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+        background: url("http://www.ecolightmexico.com.mx/img/engrane.png") no-repeat 50%top,
+                    linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+        background-size: 35px, 100%;
+        border-top: 3px solid #96B42D;
+        color: #96B42D;
+        font-size: 18px;
+        margin-top: 2.2em;
+        padding-left: 9em;
+    }
+
+ /* Imagen de portada de Industrial */
+    #industrial_img
+    {
+      height: 150px;
+      width:100%;
+      margin-right:auto;
+      margin-left: auto;
+    }
+
+    /* Título 2 de Otros */
+    #otros_h2
+    {
+        background: #FFF777; /* Para IE */
+        /* imagen que de fondo */
+        background: url("http://www.ecolightmexico.com.mx/img/dinero.png") no-repeat 18%center,
+                    -webkit-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+        background: url("http://www.ecolightmexico.com.mx/img/dinero.png") no-repeat 18%center,
+                    -moz-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+        background: url("http://www.ecolightmexico.com.mx/img/dinero.png") no-repeat 18%center,
+                    -o-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+        background: url("http://www.ecolightmexico.com.mx/img/dinero.png") no-repeat 18%center,
+                    -ms-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+        background: url("http://www.ecolightmexico.com.mx/img/dinero.png") no-repeat 18%center,
+                    linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+        background-size: 16px, 100%;
+        border-top: 3px solid #96B42D;
+        color: #96B42D;
+        font-size: 18px;
+        margin-top: 1.1em;
+        padding-left: 1.5em;
+        letter-spacing: 3.5px;
+    }
+
+
+/* Introducción de Iluminación Comercial */
+    #parrafo_comercial
+    {
+      font-weight: bold;
+      font-size: 15px;
+      margin-bottom: -2em;
+      margin-top: 2.2em;
+      margin-left: 1.5em;
+      margin-right:1.5em;
+      text-align: justify;
+    }
+
+   /* Info de Contacto */
+    #parrafo_contacto
+    {
+      color: #96B42D;
+      font-weight: normal;
+      font-size: 18px;
+      margin-top: 1em;
+      margin-left: 7em;
+      margin-right: 2em;
+      position: relative;
+      text-align: justify;
+      text-shadow: none
+    }
+
+/* Introducción de Hogar, Industrial */
+    #parrafo_hogar, #parrafo_industrial, #parrafo_publica, #parrafo_leds, #parrafo_granjas, 
+    #parrafo_deportiva, #parrafo_acuarios
+    {
+      font-weight: bold;
+      font-size: 15px;
+      margin-bottom: -2em;
+      margin-top: 0.5em;
+      margin-left: 1.5em;
+      margin-right:1.5em;
+      text-align: justify;
+    }
+
+    /* Introducción de Otros */
+    #parrafo_otros
+    {
+      font-weight: bold;
+      color: #96B42D;
+      font-size: 14px;
+      margin-bottom: 7em;
+      margin-top: -0.5em;
+      margin-left: 12.2em;
+      margin-right: 0.8em;
+      text-align: justify;
+    }
+
+    /* Título 1 de publica */
+    #publica_h1
+    {
+
+      color: #FFFFFF;
+      margin-right:16em;
+      margin-top: -1.5em;
+      font-size:18px;
+
+    }
+
+    /* Título 2 de publica */
+    #publica_h2
+    {
+      background: #FFF777; /* Para IE */
+      /* imagen que de fondo */
+      background: url("http://www.ecolightmexico.com.mx/img/public.png") no-repeat 4%center,
+                  -webkit-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background: url("http://www.ecolightmexico.com.mx/img/public.png") no-repeat 4%center,
+                  -moz-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background: url("http://www.ecolightmexico.com.mx/img/pubic.png") no-repeat 4%center,
+                  -o-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background: url("http://www.ecolightmexico.com.mx/img/public.png") no-repeat 4%center,
+                  -ms-linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background: url("http://www.ecolightmexico.com.mx/img/public.png") no-repeat 4%center,
+                  linear-gradient(right, #FFF777 0%,#FFFFFF 100%);
+      background-size: 35px, 100%;
+      border-top: 3px solid #96B42D;
+      color: #96B42D;
+      font-size: 18px;
+      margin-top: 0.6em;
+      letter-spacing: 5px;
+      padding-right: 3em;
+    }
+
+    /* Imagen de portada de Pública */
+    #publica_img
+    {
+      width:100%;
+      height: 150px;
+      margin-right:auto;
+      margin-left: auto;
+    }
+    
+
+/* contenedor seccion Gasolineras, Techo Hogar, Campanas Industriales, Alumbrado Público */
+#subcat_gasolineras, #subcat_techo_hogar, #subcat_campanas_industriales, #subcat_alumbrado
+{
+  margin-left: 4.5em;
+  padding-top: 10em;
+  padding-bottom: 0.1em;
+  width: 230px;
+}
+
+/* contenedor seccion Piso, Reflectores de Potencia Hogar */
+#subcat_piso_comercial, #subcat_reflectores_hogar
+{
+  margin-left: 4.5em;
+  margin-top: 4em;
+  padding-top: 10em;
+  padding-bottom: 0.1em;
+  width: 230px;
+}
+
+/* contenedor seccion Reflectores de Potencia Comercial, Jardín, Reflectores de Potencia Industrial, 
+Reflectores para Canchas Deportivas */
+#subcat_reflectores_comercial, #subcat_jardin, #subcat_reflectores_industrial, #subcat_reflectores_canchas
+{
+  margin-left: 4.5em;
+  margin-top: 4em;
+  padding-top: 10em;
+  padding-bottom: 0.1em;
+  width: 230px;
+}
+
+
+/* contenedor seccion Techo Comercial */
+#subcat_techo_comercial
+{
+  margin-left: 4.5em;
+  margin-top: -18em;
+  padding-top: 10em;
+  padding-bottom: 0.1em;
+  width: 230px;
+}
+
+
+/* contenedor seccion Tiras de Led Comercialy Hogar */
+ #subcat_tirasled_comercial, #subcat_tirasled
+{
+  margin-left: 4.5em;
+  margin-right: 1em;
+  margin-top: 3.5em;
+  padding-top: 10em;
+  padding-bottom: 0.1em;
+  width: 230px;
+}
+
+/* contenedor seccion Techo Industrial, Tunel Vehicular */
+    #subcat_techo_industrial, #subcat_tunel_vehicular
+    {
+      margin-left: 4.5em;
+      margin-right: 1em;
+      margin-top: 4em;
+      padding-top: 10em;
+      padding-bottom: 0.1em;
+      width: 230px;
+    }
+
+/* contenedor seccion Piso Hogar */
+    #subcat_piso
+       {
+      margin-left: 4.5em;
+      margin-right: 1em;
+      margin-top: -18em;
+      padding-top: 10em;
+      padding-bottom: 0.1em;
+      width: 230px;
+    }
+
+/* Twitter Logo-Botón */
+    #twitter
+    {
+ 
+      padding-bottom: 1.1em;
+      margin-top:  -5.5em;
+      margin-right: 4em;
+    }
+
+ /* Formato de Buscador */
+
+    #search_box {
+
+        width:388px;
+
+    }
+
+    /* Formato letras de campo de busqueda del Buscador */
+
+    #search_box input 
+    {  
+      width:375px; 
+    }
+
+    /* Sección de texto Empresa */
+    #vision_mision_etc
+    {
+      color: #96B42D;
+      font-weight: normal;
+      font-size: 18px;
+      margin-top: -8em;
+      margin-left: ;
+      margin-right: auto;
+      padding-right: 2em;
+      padding-left: 9em;
+      padding-top: 15em;
+      padding-bottom: 0.3em;
+      text-align: left;
+      height: auto;
+    }
+
+/* Posición y tamaño de barra, líneas divisoras */
+        .menu li {
+          height: 38px;
+        }
+
+
+/* formato  de letras de barra */
+    .menu li a {
+        
+        font-size: 13px;
+        line-height: 25px;
+        padding: 0 0.3em;
+        margin: 3px 0;
+        
+    }
+
+/*  desplegado saliendo*/ 
+        .menu li:hover > ul 
+        { 
+          height: 322px;
+          width: 85px
+        }
+
+
+/* formato del desplegado de submenu */
+            .menu ul 
+            {
+            top: 39px;
+            }
+
+         /* Desplegado Metiendose*/
+        .menu ul li 
+        { 
+            height: 0;
+            width: 85px;
+        }
+
+
+    .slides li img { 
+        
+        margin-top: 0.1em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2em;
+
+    }
+
+/*  tamaño de fotos en slide*/ 
+    .slides{
+        height: auto;
+        width:auto;
+    }
+}
+        

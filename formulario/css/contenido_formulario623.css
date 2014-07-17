@@ -1,0 +1,71 @@
+ @media screen and (max-width: 623px){
+
+
+ /* contenedor del Formulario */
+    #formulario
+    {
+       text-align: center;
+       margin-top: 1em;
+       margin-left: 6em;
+       margin-right: auto;
+    }
+    /* contenido del Formulario */
+    div#form_contacto
+    {
+       width:345px;
+    }
+
+/* Encabezado de Formulario */
+div#titulo_form_contacto {
+
+    font-size: 12px;
+  
+}
+
+/* contenedor del contenido del Formulario */
+#cuerpo_form 
+  {
+  
+    background-size: 337px, 100%;   
+    padding: 15px 15px 140px 25px;      
+
+  }
+
+/** Estilos de los campos a llenar **/
+#contenido_form_contacto input, select, textarea 
+  {
+    width: 250px;   
+  }
+
+/** boton enviar **/
+input#send {
+ 
+    margin-top: 1.3em;
+    width:70px;
+
+}
+
+/** espaciado entre campos a llenar **/
+#contenido_form_contacto label {
+
+    margin-top: 0.5px;
+}
+
+.warning 
+  {
+
+    margin-top: 20px;
+
+  }
+
+/** imagen de código de seguridad **/
+#img_codigoseg
+   {
+
+    vertical-align:none; 
+    margin-left: 5em;
+    margin-top: 0.5em;
+    width:70px;
+    
+   }
+}
